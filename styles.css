@@ -17,7 +17,7 @@ body {
 
 nav {
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: center;
     height: 6vw;
     width: 100vw;
@@ -35,6 +35,7 @@ ul {
     justify-content: space-between;
     width: 17vw;
     color: rgb(35,35,35);
+    margin-right: 3vw;
 }
 
 ul a {
@@ -46,11 +47,12 @@ ul a {
 header {
     display: flex;
     flex-direction: column;
-    border: 3px solid rgb(1,1,1);
+    border: 0.5vw solid rgb(255, 252, 240);
     height: 30vw;
     width: 70vw;
     margin: 3vw;
     padding: 1.7vw;
+    background-color: rgba(221, 204, 148, 0.5)
 }
 
 header h2 {
@@ -63,8 +65,9 @@ main {
     display: flex;
     flex-direction: column;
     margin: 3vw;
-    border: 3px solid black;
     width: 70vw;
+    background-color: rgba(221, 204, 148, 0.5);
+    border: 0.5vw solid rgb(255, 252, 240);
 }
 
 main a {
@@ -73,6 +76,7 @@ main a {
     border: 2px solid black;
     margin: 3vw 3vw;
     padding: 1vw 1.7vw;
+    background-color: rgba(255,255,255,0.7);
 }
 
 
@@ -91,16 +95,44 @@ main div p {
     display: flex;
     flex-direction: column;
     border: 3px solid rgb(1,1,1);
+    background-color: rgba(255,255,255,0.7);
     width: 70vw;
     margin: 3vw;
     padding: 1.7vw;
 }
 
-.blogpost h2 {
-    margin-bottom: 1.7vw;
+.title-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5vw;
+    margin-bottom: 2vw;
 }
+
+.title-bar a {
+    text-decoration: none;
+    color: rgb(35, 35, 35);
+}
+
+.title-bar div {
+    display: flex;
+    column-gap: 0.5vw;
+    align-items: center;
+}
+
+
+
+.title-bar div span {
+    font-size: 1.5em;
+}
+
+.title-bar div p {
+    margin-top: 0.5vw;
+}
+
 
 .blogpost p {
     white-space: pre-line;
     margin-bottom: 1vw;
+    line-height: 1.5em;
 }
