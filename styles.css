@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono:wght@300&display=swap');
+
+body {
+    background-color: rgb(252, 239, 200);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 6vw;
+    width: 100vw;
+    background-color: rgb(255, 252, 240);
+}
+
+nav h1 {
+    margin: 0vw 3vw 0vw 3vw;
+    color: rgb(35,35,35);
+}
+
+ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    width: 17vw;
+    color: rgb(35,35,35);
+}
+
+ul a {
+    color:rgb(35,35,35);
+    text-decoration: none;
+}
+
+
+header {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(1,1,1);
+    height: 30vw;
+    width: 70vw;
+    margin: 3vw;
+    padding: 1.7vw;
+}
+
+header h2 {
+    margin-bottom: 1.7vw;
+}
+
+/* Blogpost List */
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin: 3vw;
+    border: 3px solid black;
+    width: 70vw;
+}
+
+main a {
+    text-decoration: none;
+    color:rgb(35, 35, 35);
+    border: 2px solid black;
+    margin: 3vw 3vw;
+    padding: 1vw 1.7vw;
+}
+
+
+
+main div h2 {
+    margin-bottom: 1vw;
+}
+
+main div p {
+    margin-bottom: 1vw;
+}
+
+/* Blogposts */
+
+.blogpost {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid rgb(1,1,1);
+    width: 70vw;
+    margin: 3vw;
+    padding: 1.7vw;
+}
+
+.blogpost h2 {
+    margin-bottom: 1.7vw;
+}
+
+.blogpost p {
+    white-space: pre-line;
+    margin-bottom: 1vw;
+}
